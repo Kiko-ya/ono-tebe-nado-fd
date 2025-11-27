@@ -1,1 +1,1 @@
-https://github.com/Kiko-ya/ono-tebe-nado-fd.git
+https://github.com/Kiko-ya/ono-tebe-nado-fd
