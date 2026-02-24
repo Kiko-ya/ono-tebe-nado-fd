@@ -12,7 +12,7 @@ body {
 .header__logo {
     display: block;
     height: 105px;
-    width: 137px;
+    width: 136px;
 }
 
 .header__links-list {
@@ -67,6 +67,7 @@ body {
     min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
+    background-position: -137px;
     background-repeat: no-repeat;
 }
 
@@ -199,7 +200,8 @@ body {
     font-size: 22px;
     font-weight: 700;
     text-decoration: underline 1px solid;
-    text-underline-offset: 4px;
+    line-height: 119%;
+    text-underline-offset: 3px;
 }
 
 .card__text {
@@ -234,7 +236,7 @@ body {
     height: 240px;
     background-color: #000;
     border-radius: 50%;
-    margin: 35px 0 0 47px;
+    margin: 34px 0 0 47px;
 }
 
 .about__logo-image {
@@ -243,7 +245,8 @@ body {
 
 .about__column-position-end {
     align-self: end;
-    padding: 133px 0 0 25px;
+    width: 693px;
+    padding: 135px 0 0 25px;
 }
 
 .about__title {
