@@ -12,7 +12,7 @@ body {
 .header__logo {
     display: block;
     height: 105px;
-    width: 136px;
+    width: 137px;
 }
 
 .header__links-list {
@@ -21,6 +21,7 @@ body {
     list-style: circle;
     gap: 33px;
     width: 391.48px;
+    line-height: 21px;
 }
 
 .header__links-list-item_no-bullit {
