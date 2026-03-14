@@ -34,7 +34,7 @@ body {
     text-underline-offset: 3px;
 }
 
-.header__link_active .header__links-list-item {
+.header__link_active {
     text-decoration: none;
 }
 
@@ -68,8 +68,9 @@ body {
     min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
-    background-position: -137px;
+    background-position: center;
     background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .overlay {
@@ -80,16 +81,15 @@ body {
     left: 0;
     background-color: #000;
     opacity: 0.6;
+    z-index: -1;
 }
 
 .cover__title {
-    min-height: 385px;
     text-transform: uppercase;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
     color: #fff;
-    opacity: 0.999;
     margin-bottom: 106px;
 }
 
@@ -122,7 +122,6 @@ body {
     align-items: center;
     text-transform: uppercase;
     color: #fff;
-    opacity: 0.999;
     font-size: 22px;
 }
 
@@ -174,6 +173,7 @@ body {
     position: relative;
     background-size: cover;
     background-position: center;
+    z-index: 1;
 
 }
 
@@ -196,7 +196,6 @@ body {
 
 .card__title {
     color: #fff;
-    opacity: 0.999;
     text-transform: uppercase;
     font-size: 22px;
     font-weight: 700;
@@ -207,7 +206,6 @@ body {
 
 .card__text {
     color: #fff;
-    opacity: 0.999;
     font-size: 20px;
     font-weight: 400;
     line-height: 120%;
@@ -271,11 +269,6 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: start;
     padding: 0 50px;
-}
-
-.footer__address_item {
-    line-height: 24.3px;
-    text-underline-offset: 4px;
 }
 
 .footer__menu-list {
